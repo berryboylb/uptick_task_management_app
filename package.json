@@ -1,0 +1,26 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Nodejs Course Series ",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Islem Penywis",
+  "license": "MIT ",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.16.4",
+    "http-errors": "^2.0.0",
+    "joi": "^17.10.2",
+    "mongoose": "^7.5.2",
+    "mysql2": "^3.6.1",
+    "pug": "^2.0.3",
+    "sequelize": "^6.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
