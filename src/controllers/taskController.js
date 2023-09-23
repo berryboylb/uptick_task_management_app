@@ -30,7 +30,7 @@ const fetchAll = async (req, res) => {
     res.status(200).json({
       statusCode: 201,
       message: "tasks fetched successfully",
-      data: { page, perPage, tasks, nextPage },
+      data: { page: page || 1, perPage: perPage || 12, tasks, nextPage },
     });
   } catch (error) {
     console.error("Error:", error);
